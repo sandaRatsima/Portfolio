@@ -1,3 +1,20 @@
-.HomeSection p {
+.HomeSection {
+  padding-top: 3ch;
+  padding-left: 5ch;
   color: white;
+}
+
+.TitleContainer {
+  width: 95%;
+  border-bottom: 2px solid #1a1a1a;
+}
+
+.HomeTitle {
+  font-weight: bold;
+}
+
+.Welcome {
+  margin-top: 7ch;
+  width: 80%;
+  justify-content: center;
 }
