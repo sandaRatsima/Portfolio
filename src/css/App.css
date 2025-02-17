@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  min-height: 100vh; /* Use min-height instead of height */
+}
+
+.Navbar {
+  padding-left: 1ch;
+  padding-top: 1ch;
+  margin: 0;
+  width: 20vw;
+  border-right: 2px solid #1a1a1a;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  height: 100vh;
+}
+
+.MainSection {
+  flex: 1;
+  overflow-y: auto;
+  height: 600vh;
+}
