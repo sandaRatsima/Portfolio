@@ -1,10 +1,8 @@
 import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/vite.svg";
 import NavbarComponent from "./NavbarComponent.tsx";
 import "../css/navbar.css";
 import "react-icons";
-import { NavbarData } from "../const/data.tsx";
+import { NavbarData } from "../../const/data.tsx";
 
 function Navbar() {
   const [activeIndex, setActiveIndex] = useState(0);

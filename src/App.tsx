@@ -1,5 +1,5 @@
 // import Skills from "./components/Skills.tsx";
-import Navbar from "./components/Navbar.tsx";
+import Navbar from "./components/navbar/Navbar.tsx";
 // import MainSection from "./components/mainSection.tsx";
 
 function App() {
