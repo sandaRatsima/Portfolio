@@ -187,23 +187,23 @@ export const FrameworksAndToolsData = [
 
 export const DatabasesData = [
   {
-    image: "",
+    image: "/src/assets/images/MySQL_logo.jpg",
     name: "MySQL",
     isCaroussel: false,
   },
   {
-    image: "",
+    image: "/src/assets/images/OracleDB_logo.png",
     name: "OracleDB",
     isCaroussel: true,
   },
   {
-    image: "",
+    image: "/src/assets/images/SQLite_logo.png",
     name: "SQLite",
     isCaroussel: false,
   },
   {
-    image: "",
-    name: "GraphDB",
+    image: "/src/assets/images/SparQL_logo.png",
+    name: "SparQL",
     isCaroussel: true,
   },
 ];
