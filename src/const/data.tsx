@@ -8,6 +8,8 @@ import {
 import { GoHome, GoHomeFill } from "react-icons/go";
 import { TbBrandLinkedinFilled } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
+import { DiPython, DiFirebase, DiReact, DiLinux } from "react-icons/di";
+
 export const NavbarData = [
   {
     icons: <GoHome className="icon" />,
@@ -55,5 +57,39 @@ export const SocialMediaData = [
     name: "X",
     id: "mahatsangyy",
     link: "https://x.com/mahatsangyy",
+  },
+];
+
+export const StatsData = [
+  {
+    number: 2,
+    name: "Année d'études",
+  },
+  {
+    number: 15,
+    name: "Projets",
+  },
+  {
+    number: 200,
+    name: "GitHub Commits",
+  },
+];
+
+export const SkillsNavbarData = [
+  {
+    icon: <DiPython className="iconSkillNavbar" />,
+    name: "Programming language",
+  },
+  {
+    icon: <DiFirebase className="iconSkillNavbar" />,
+    name: "Databases",
+  },
+  {
+    icon: <DiReact className="iconSkillNavbar" />,
+    name: "Framework and Tools",
+  },
+  {
+    icon: <DiLinux className="iconSkillNavbar" />,
+    name: "Operating Systems",
   },
 ];

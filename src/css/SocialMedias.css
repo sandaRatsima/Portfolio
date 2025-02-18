@@ -18,6 +18,11 @@ p.nameSocialMedia {
   margin-top: 0;
   margin-bottom: 0;
 }
+/* 
+p.idSocialMedia:after,
+p.nameSocialMedia:after {
+  text-decoration: none;
+} */
 
 .iconSocialMedia {
   width: 40px;

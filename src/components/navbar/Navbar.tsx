@@ -12,7 +12,7 @@ const Navbar: React.FC<Props> = ({ activeIndex, setActiveIndex }) => {
     <div className="Navbar">
       <aside>
         <div className="Title">
-          <h2>Portfolio</h2>
+          <h2>Portfolio Sanda Ratsima</h2>
         </div>
         <div className="ListSections">
           {NavbarData.map((value, index) => (
