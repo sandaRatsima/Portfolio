@@ -3,6 +3,7 @@ import "../../css/Profile.css";
 import { StatsData } from "../../const/data";
 import { useState } from "react";
 import ProgrammingLanguages from "./Sections/ProgrammingLanguage";
+import FrameworksAndTools from "./Sections/FrameworkAndTools";
 import StatComponent from "./StatComponent";
 import SkillsNavbar from "./SkillsNavbar";
 
@@ -29,6 +30,7 @@ function Profile() {
       <SkillsNavbar activeIndex={activeIndex} setActiveIndex={setActiveIndex} />
       <div className="SkillsSection">
         {activeIndex == 0 && <ProgrammingLanguages />}
+        {activeIndex == 1 && <FrameworksAndTools />}
       </div>
     </div>
   );
