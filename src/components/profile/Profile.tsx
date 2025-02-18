@@ -7,6 +7,7 @@ import FrameworksAndTools from "./Sections/FrameworkAndTools";
 import StatComponent from "./StatComponent";
 import SkillsNavbar from "./SkillsNavbar";
 import Databases from "./Sections/Databases";
+import OperatingSystems from "./Sections/OperatingSystem";
 
 function Profile() {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -33,6 +34,7 @@ function Profile() {
         {activeIndex == 0 && <ProgrammingLanguages />}
         {activeIndex == 1 && <FrameworksAndTools />}
         {activeIndex == 2 && <Databases />}
+        {activeIndex == 3 && <OperatingSystems />}
       </div>
     </div>
   );

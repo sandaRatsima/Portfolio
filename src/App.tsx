@@ -5,7 +5,7 @@ import Home from "./components/home/Home.tsx";
 import Profile from "./components/profile/Profile.tsx";
 
 function App() {
-  const [activeIndex, setActiveIndex] = useState(1);
+  const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div className="App">
       <Navbar

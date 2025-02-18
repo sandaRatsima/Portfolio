@@ -207,3 +207,21 @@ export const DatabasesData = [
     isCaroussel: true,
   },
 ];
+
+export const OperatingSystemsData = [
+  {
+    image: "/src/assets/images/Windows_logo.jpg",
+    name: "Windows",
+    isCaroussel: true,
+  },
+  {
+    image: "/src/assets/images/Linux_logo.jpg",
+    name: "Linux",
+    isCaroussel: false,
+  },
+  {
+    image: "/src/assets/images/Android_logo.webp",
+    name: "Android",
+    isCaroussel: true,
+  },
+];
