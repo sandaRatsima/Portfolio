@@ -1,0 +1,44 @@
+.SkillsNavbarContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.SkillNavbarComponent {
+  display: flex;
+  flex: row;
+  align-items: center;
+  padding-left: 3ch;
+  padding-right: 3ch;
+}
+
+p.SkillType {
+  padding-left: 0;
+  color: #a8a8a8;
+  font-size: smaller;
+}
+
+.iconSkillNavbar {
+  width: 24px;
+  height: 24px;
+  color: #a8a8a8;
+}
+
+.NavbarIcon {
+  padding-right: 0px;
+}
+
+.SkillNavbarComponent:hover {
+  cursor: pointer;
+}
+
+.SkillNavbarComponent.active {
+  border-top: 3px solid white;
+}
+.SkillNavbarComponent.active p {
+  color: white;
+  font-weight: bold;
+}
+
+.SkillNavbarComponent.active .iconSkillNavbar {
+  color: white;
+}

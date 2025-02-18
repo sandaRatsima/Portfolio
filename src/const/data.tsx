@@ -81,12 +81,12 @@ export const SkillsNavbarData = [
     name: "Programming language",
   },
   {
-    icon: <DiFirebase className="iconSkillNavbar" />,
-    name: "Databases",
-  },
-  {
     icon: <DiReact className="iconSkillNavbar" />,
     name: "Framework and Tools",
+  },
+  {
+    icon: <DiFirebase className="iconSkillNavbar" />,
+    name: "Databases",
   },
   {
     icon: <DiLinux className="iconSkillNavbar" />,
