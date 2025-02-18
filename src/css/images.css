@@ -1,0 +1,36 @@
+.SquareImage {
+  height: 270px;
+  width: 270px;
+  position: relative; /* Needed for absolute positioning of child elements */
+  background-size: cover;
+  background-position: center;
+  margin: 0.5ch;
+  border-radius: 2px;
+}
+
+.PictureName {
+  background-color: #1a1a1ac0;
+  font-weight: bold;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.1s ease-in-out;
+}
+
+.SquareImage:hover .PictureName {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.CarousselIcon {
+  color: white;
+  display: flex;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}

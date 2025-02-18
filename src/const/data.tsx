@@ -93,3 +93,56 @@ export const SkillsNavbarData = [
     name: "Operating Systems",
   },
 ];
+
+export const ProgrammingLanguagesData = [
+  {
+    image: "/src/assets/images/java_logo.png",
+    name: "Java",
+    isCaroussel: false,
+  },
+  {
+    image: "/src/assets/images/HTML_logo.jpg",
+    name: "HTML",
+    isCaroussel: true,
+  },
+  {
+    image: "/src/assets/images/css_logo.png",
+    name: "CSS",
+    isCaroussel: true,
+  },
+  {
+    image: "/src/assets/images/JS_logo.png",
+    name: "JavaScript",
+    isCaroussel: false,
+  },
+  {
+    image: "/src/assets/images/Php_logo.png",
+    name: "PHP",
+    isCaroussel: true,
+  },
+  {
+    image: "/src/assets/images/C++_logo.png",
+    name: "C++",
+    isCaroussel: false,
+  },
+  {
+    image: "/src/assets/images/Csharp_logo.png",
+    name: "C#",
+    isCaroussel: true,
+  },
+  {
+    image: "/src/assets/images/C_logo.webp",
+    name: "C",
+    isCaroussel: false,
+  },
+  {
+    image: "/src/assets/images/ASM_logo.png",
+    name: "Assembly",
+    isCaroussel: true,
+  },
+  {
+    image: "/src/assets/images/TS_logo.webp",
+    name: "TypeScript",
+    isCaroussel: false,
+  },
+];
