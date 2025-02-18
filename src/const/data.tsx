@@ -145,6 +145,11 @@ export const ProgrammingLanguagesData = [
     name: "TypeScript",
     isCaroussel: false,
   },
+  {
+    image: "/src/assets/images/Python_logo.webp",
+    name: "Python",
+    isCaroussel: false,
+  },
 ];
 
 export const FrameworksAndToolsData = [
