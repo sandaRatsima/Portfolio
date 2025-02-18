@@ -14,7 +14,25 @@
 }
 
 .Welcome {
-  margin-top: 7ch;
-  width: 80%;
+  margin-top: 5ch;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Picture {
+  background-image: url("../assets/images/CV.png");
+  background-size: contain; /* Ensures the image fits within the container */
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px; /* Set a fixed height or use a relative unit like 50vh */
+  width: 100%; /* Ensure it takes up the full width of its container */
+  max-width: 800px; /* Optional: Set a maximum width to prevent it from becoming too large */
 }
