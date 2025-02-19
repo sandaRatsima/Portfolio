@@ -63,11 +63,11 @@ export const SocialMediaData = [
 export const StatsData = [
   {
     number: 2,
-    name: "Année d'études",
+    name: "Years of Study",
   },
   {
     number: 15,
-    name: "Projets",
+    name: "Projects",
   },
   {
     number: 200,
