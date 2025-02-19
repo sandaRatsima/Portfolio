@@ -20,7 +20,7 @@ function Welcome() {
       <div className="ReactionsContainer">
         <FaRegHeart className="IconReaction" />
         <FaRegComment className="IconReaction" />
-        <a href=" /src/assets/images/CV.png" download="CV.png">
+        <a href=" /images/CV.png" download="CV_Sanda_Ratsima.png">
           <TbSend className="IconReaction" />
         </a>
       </div>
