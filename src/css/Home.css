@@ -24,7 +24,7 @@
 }
 
 .Picture {
-  background-image: url("../assets/images/CV.png");
+  background-image: url("/public/images/CV.png");
   background-size: contain; /* Ensures the image fits within the container */
   background-repeat: no-repeat;
   background-position: center;

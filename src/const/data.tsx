@@ -96,57 +96,57 @@ export const SkillsNavbarData = [
 
 export const ProgrammingLanguagesData = [
   {
-    image: "/src/assets/images/java_logo.png",
+    image: "/images/java_logo.png",
     name: "Java",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/HTML_logo.jpg",
+    image: "/images/HTML_logo.jpg",
     name: "HTML",
     isCaroussel: true,
   },
   {
-    image: "/src/assets/images/css_logo.png",
+    image: "/images/css_logo.png",
     name: "CSS",
     isCaroussel: true,
   },
   {
-    image: "/src/assets/images/JS_logo.png",
+    image: "/images/JS_logo.png",
     name: "JavaScript",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/Php_logo.png",
+    image: "/images/Php_logo.png",
     name: "PHP",
     isCaroussel: true,
   },
   {
-    image: "/src/assets/images/C++_logo.png",
+    image: "/images/C++_logo.png",
     name: "C++",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/Csharp_logo.png",
+    image: "/images/Csharp_logo.png",
     name: "C#",
     isCaroussel: true,
   },
   {
-    image: "/src/assets/images/C_logo.webp",
+    image: "/images/C_logo.webp",
     name: "C",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/ASM_logo.png",
+    image: "/images/ASM_logo.png",
     name: "Assembly",
     isCaroussel: true,
   },
   {
-    image: "/src/assets/images/TS_logo.webp",
+    image: "/images/TS_logo.webp",
     name: "TypeScript",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/Python_logo.webp",
+    image: "/images/Python_logo.webp",
     name: "Python",
     isCaroussel: false,
   },
@@ -154,37 +154,37 @@ export const ProgrammingLanguagesData = [
 
 export const FrameworksAndToolsData = [
   {
-    image: "/src/assets/images/React_logo.webp",
+    image: "/images/React_logo.webp",
     name: "React",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/Github_logo.webp",
+    image: "/images/Github_logo.webp",
     name: "GitHub",
     isCaroussel: true,
   },
   {
-    image: "/src/assets/images/Vite_logo.jpg",
+    image: "/images/Vite_logo.jpg",
     name: "Vite",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/Godot_logo.jpeg",
+    image: "/images/Godot_logo.jpeg",
     name: "Godot",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/Unity_logo.webp",
+    image: "/images/Unity_logo.webp",
     name: "Unity",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/Docker_logo.jpeg",
+    image: "/images/Docker_logo.jpeg",
     name: "Docker",
     isCaroussel: true,
   },
   {
-    image: "/src/assets/images/Gitlab_logo.webp",
+    image: "/images/Gitlab_logo.webp",
     name: "GitLab",
     isCaroussel: true,
   },
@@ -192,22 +192,22 @@ export const FrameworksAndToolsData = [
 
 export const DatabasesData = [
   {
-    image: "/src/assets/images/MySQL_logo.jpg",
+    image: "/images/MySQL_logo.jpg",
     name: "MySQL",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/OracleDB_logo.png",
+    image: "/images/OracleDB_logo.png",
     name: "OracleDB",
     isCaroussel: true,
   },
   {
-    image: "/src/assets/images/SQLite_logo.png",
+    image: "/images/SQLite_logo.png",
     name: "SQLite",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/SparQL_logo.png",
+    image: "/images/SparQL_logo.png",
     name: "SparQL",
     isCaroussel: true,
   },
@@ -215,17 +215,17 @@ export const DatabasesData = [
 
 export const OperatingSystemsData = [
   {
-    image: "/src/assets/images/Windows_logo.jpg",
+    image: "/images/Windows_logo.jpg",
     name: "Windows",
     isCaroussel: true,
   },
   {
-    image: "/src/assets/images/Linux_logo.jpg",
+    image: "/images/Linux_logo.jpg",
     name: "Linux",
     isCaroussel: false,
   },
   {
-    image: "/src/assets/images/Android_logo.webp",
+    image: "/images/Android_logo.webp",
     name: "Android",
     isCaroussel: true,
   },
