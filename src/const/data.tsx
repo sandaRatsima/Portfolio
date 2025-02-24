@@ -169,6 +169,11 @@ export const FrameworksAndToolsData = [
     isCaroussel: false,
   },
   {
+    image: "/images/Android_Studio_logo.webp",
+    name: "Android Studio",
+    isCaroussel: false,
+  },
+  {
     image: "/images/Godot_logo.jpeg",
     name: "Godot",
     isCaroussel: false,
@@ -228,5 +233,23 @@ export const OperatingSystemsData = [
     image: "/images/Android_logo.webp",
     name: "Android",
     isCaroussel: true,
+  },
+];
+
+export const ProjectsData = [
+  {
+    image: "/images/projects/Sudoku_Preview.png",
+    name: "Sudoku",
+    isCaroussel: false,
+  },
+  {
+    image: "",
+    name: "Minesweeper",
+    isCaroussel: false,
+  },
+  {
+    video: "https://youtu.be/s3toOeX2eKA",
+    name: "SilendKingdom",
+    isCaroussel: false,
   },
 ];
