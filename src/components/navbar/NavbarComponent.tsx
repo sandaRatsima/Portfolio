@@ -3,6 +3,7 @@ interface NavbarProps {
   activeIcon: React.ReactNode;
   name: string;
   isActive: boolean;
+  isSmaller: boolean;
   onClick: () => void;
 }
 
@@ -11,11 +12,14 @@ const NavbarComponent: React.FC<NavbarProps> = ({
   activeIcon,
   name,
   isActive,
+  isSmaller,
   onClick,
 }) => {
   return (
     <div
-      className={`NavbarComponent ${isActive ? "active" : ""}`}
+      className={`NavbarComponent ${isActive ? "active" : ""} ${
+        isSmaller ? "smaller" : ""
+      }`}
       onClick={onClick}
     >
       <div className="iconContainer">{isActive ? activeIcon : icon}</div>

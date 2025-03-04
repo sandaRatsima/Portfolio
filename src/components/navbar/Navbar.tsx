@@ -9,10 +9,10 @@ interface Props {
 
 const Navbar: React.FC<Props> = ({ activeIndex, setActiveIndex }) => {
   return (
-    <div className="Navbar">
+    <div className={`Navbar ${activeIndex === 3 ? "smaller" : ""}`}>
       <aside>
-        <div className="Title">
-          <h2>Portfolio Sanda Ratsima</h2>
+        <div className={`Title ${activeIndex === 3 ? "smaller" : ""}`}>
+          {activeIndex === 3 ? <h2> P</h2> : <h2>Portfolio Sanda Ratsima</h2>}
         </div>
         <div className="ListSections">
           {NavbarData.map((value, index) => (
@@ -22,6 +22,7 @@ const Navbar: React.FC<Props> = ({ activeIndex, setActiveIndex }) => {
               activeIcon={value.fillIcon}
               name={value.name}
               isActive={index === activeIndex}
+              isSmaller={activeIndex === 3}
               onClick={() => setActiveIndex(index)}
             />
           ))}
