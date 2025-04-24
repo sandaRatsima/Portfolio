@@ -30,8 +30,8 @@ function Welcome() {
         <p className="DescriptionText">
           Hello, my name is Ratsima Sanda. I am in my second year of a Bachelors
           in Computer Science at Paris-Saclay University and I am currently
-          looking for an internship. To download my CV, click the send button
-          below the preview.
+          intern at Société Générale and looking for an one year apprenticeship.
+          To download my CV, click the send button below the preview.
         </p>
       </div>
     </div>
