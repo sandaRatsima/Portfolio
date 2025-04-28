@@ -9,6 +9,7 @@ import { GoHome, GoHomeFill } from "react-icons/go";
 import { TbBrandLinkedinFilled } from "react-icons/tb";
 import { FaXTwitter } from "react-icons/fa6";
 import { DiPython, DiFirebase, DiReact, DiLinux } from "react-icons/di";
+import { Project } from "../models/ProjectsModel";
 
 export const NavbarData = [
   {
@@ -57,21 +58,6 @@ export const SocialMediaData = [
     name: "X",
     id: "mahatsangyy",
     link: "https://x.com/mahatsangyy",
-  },
-];
-
-export const StatsData = [
-  {
-    number: 2,
-    name: "Years of Study",
-  },
-  {
-    number: 15,
-    name: "Projects",
-  },
-  {
-    number: 200,
-    name: "GitHub Commits",
   },
 ];
 
@@ -236,20 +222,19 @@ export const OperatingSystemsData = [
   },
 ];
 
-export const ProjectsData = [
+export let ProjectsData: Project[] = [];
+
+export const StatsData = [
   {
-    image: "/images/projects/Sudoku_Preview.png",
-    name: "Sudoku",
-    isCaroussel: false,
+    number: 2,
+    name: "Years of Study",
   },
   {
-    image: "",
-    name: "Minesweeper",
-    isCaroussel: false,
+    number: 0,
+    name: "Projects",
   },
   {
-    video: "https://youtu.be/s3toOeX2eKA",
-    name: "SilendKingdom",
-    isCaroussel: false,
+    number: 200,
+    name: "GitHub Commits",
   },
 ];
