@@ -1,12 +1,16 @@
 import { Project } from "../models/ProjectsModel";
 import { ProjectsData } from "./data";
 import { StatsData } from "./data";
+import { GITHUB_TOKEN } from "./data";
 
 //récuperer tout les projets présent sur github, en faire une liste et les stocker
 export async function fetchAllProjects() {
-  const response = await fetch(
-    "https://api.github.com/users/sandaRatsima/repos"
-  );
+  let url = "https://api.github.com/users/sandaRatsima/repos";
+  const response = await fetch(url, {
+    headers: {
+      Authorization: `Bearer ${GITHUB_TOKEN}`,
+    },
+  });
   const json = await response.json();
   json.map((element: any) => {
     let id = element.id;
@@ -21,4 +25,6 @@ export async function fetchAllProjects() {
   StatsData.forEach((stat) => {
     stat.number = stat.name == "Projects" ? ProjectsData.length : stat.number; //affecte le nombre de projets présents sur guthub, sinon, le nombre en dur
   });
+
+  console.log(ProjectsData);
 }

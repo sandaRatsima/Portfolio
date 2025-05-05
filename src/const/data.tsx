@@ -238,3 +238,5 @@ export const StatsData = [
     name: "GitHub Commits",
   },
 ];
+
+export const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
