@@ -12,7 +12,7 @@ export async function fetchAllProjects() {
     },
   });
   const json = await response.json();
-  json.map((element: any) => {
+  for (const element of json) {
     let id = element.id;
     let name = element.name;
     let created_at = element.created_at;
@@ -20,7 +20,7 @@ export async function fetchAllProjects() {
 
     let project = new Project(id, name, created_at, url);
     ProjectsData.push(project);
-  });
+  }
 
   StatsData.forEach((stat) => {
     stat.number = stat.name == "Projects" ? ProjectsData.length : stat.number; //affecte le nombre de projets présents sur guthub, sinon, le nombre en dur
