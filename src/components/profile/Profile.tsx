@@ -1,4 +1,3 @@
-import { FaRegUserCircle } from "react-icons/fa";
 import "../../css/Profile.css";
 import { StatsData } from "../../const/data";
 import { useState } from "react";

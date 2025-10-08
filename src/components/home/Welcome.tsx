@@ -1,4 +1,3 @@
-import { FaRegUserCircle } from "react-icons/fa";
 import { IoIosMore } from "react-icons/io";
 import { FaRegHeart, FaRegComment } from "react-icons/fa";
 import { TbSend } from "react-icons/tb";
