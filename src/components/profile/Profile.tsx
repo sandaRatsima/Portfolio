@@ -14,7 +14,9 @@ function Profile() {
   return (
     <div className="ProfileSection">
       <div className="Head">
-        <FaRegUserCircle className="ProfileP"></FaRegUserCircle>
+        <div className="ProfilePicture">
+          <img src="/images/Profile.png" alt="Profile Picture" />
+        </div>
         <div className="UserInfo">
           <p className="UserNameProfile">sandaRatsima</p>
           <div className="StatsContainer">

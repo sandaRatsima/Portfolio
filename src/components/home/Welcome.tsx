@@ -8,8 +8,8 @@ function Welcome() {
   return (
     <div className="Welcome">
       <div className="UserContainer">
-        <div className="ProfilePicture">
-          <FaRegUserCircle className="Icon" />
+        <div className="ProfilePicture_Welcome">
+            <img src="/images/Profile.png" alt="ProfileImage" />
         </div>
         <p className="userName">sandaRatsima</p>
         <div className="More">
