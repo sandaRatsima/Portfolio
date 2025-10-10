@@ -1,0 +1,16 @@
+.MessageSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.ChatList {
+  margin: 0;
+  width: 40vw;
+  border-right: 2px solid #1a1a1a;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+  height: 100vh;
+  overflow: hidden;
+}

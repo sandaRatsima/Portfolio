@@ -1,0 +1,31 @@
+.ChatOption {
+  display: flex;
+  align-items: center;
+  height: 60px; /* choose any size you want */
+  width: 100%;
+  padding: 2ch;
+}
+
+.ChatOption:hover {
+  background-color: #1a1a1a;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.ChatOptionName p,
+.ChatOptionMessage p {
+  margin: 0;
+}
+
+.ChatOptionPicture {
+  height: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.ChatOptionPicture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}

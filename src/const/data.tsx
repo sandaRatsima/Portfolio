@@ -240,3 +240,33 @@ export const StatsData = [
 ];
 
 export const GITHUB_TOKEN = import.meta.env.VITE_GITHUB_TOKEN;
+
+export const ChatOptionsData = [
+  {
+    image: "/images/Gmail_logo.jpeg",
+    name: "Email",
+    messages: [
+      "Hey 👋 Want to contact me directly?",
+      "You can send me an email at sanda.ratsima@example.com 💌",
+      "I usually reply within 24 hours!",
+    ],
+  },
+  {
+    image: "/images/Linkedin_logo.jpg",
+    name: "LinkedIn",
+    messages: [
+      "Looking to connect professionally?",
+      "You can find me on LinkedIn!",
+      "Just search for Sanda Ratsima or click the link in my profile 🔗",
+    ],
+  },
+  {
+    image: "/icons/github.png",
+    name: "GitHub",
+    messages: [
+      "Curious about my projects?",
+      "Check out my GitHub repositories 🧑‍💻",
+      "I share code, experiments, and school projects there.",
+    ],
+  },
+];
