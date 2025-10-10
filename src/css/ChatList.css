@@ -3,7 +3,7 @@
   align-items: center;
   height: 60px; /* choose any size you want */
   width: 100%;
-  padding: 2ch;
+  padding: 1ch;
 }
 
 .ChatOption:hover {
@@ -15,6 +15,7 @@
 .ChatOptionName p,
 .ChatOptionMessage p {
   margin: 0;
+  font-size: small;
 }
 
 .ChatOptionPicture {

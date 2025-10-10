@@ -261,7 +261,7 @@ export const ChatOptionsData = [
     ],
   },
   {
-    image: "/icons/github.png",
+    image: "/images/Github2_logo.jpg",
     name: "GitHub",
     messages: [
       "Curious about my projects?",
