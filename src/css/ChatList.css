@@ -1,9 +1,12 @@
 .ChatOption {
   display: flex;
   align-items: center;
-  height: 60px; /* choose any size you want */
+  height: 70px;
   width: 100%;
   padding: 1ch;
+  padding-left: 3ch;
+  box-sizing: border-box; /* ✅ Prevents overflow from padding */
+  overflow: hidden;
 }
 
 .ChatOption:hover {
@@ -19,8 +22,7 @@
   font-weight: bold;
 }
 
-.ChatOptionName p.opened,
-.ChatOptionMessage p.opened {
+.ChatOption.opened p {
   font-weight: normal;
   color: #828282;
 }
@@ -36,4 +38,12 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.ChatOptionUnreadIcon {
+  color: #0095f6;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding-right: 2ch;
 }

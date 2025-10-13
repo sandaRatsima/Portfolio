@@ -250,6 +250,7 @@ export const ChatOptionsData = [
       "You can send me an email at sanda.ratsima@example.com 💌",
       "I usually reply within 24 hours!",
     ],
+    isOpened: false,
   },
   {
     image: "/images/Linkedin_logo.jpg",
@@ -259,6 +260,7 @@ export const ChatOptionsData = [
       "You can find me on LinkedIn!",
       "Just search for Sanda Ratsima or click the link in my profile 🔗",
     ],
+    isOpened: false,
   },
   {
     image: "/images/Github2_logo.jpg",
@@ -268,5 +270,6 @@ export const ChatOptionsData = [
       "Check out my GitHub repositories 🧑‍💻",
       "I share code, experiments, and school projects there.",
     ],
+    isOpened: false,
   },
 ];

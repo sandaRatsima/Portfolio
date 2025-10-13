@@ -1,3 +1,5 @@
+import { GoDotFill } from "react-icons/go";
+
 interface PropsChatOption {
   image: string;
   name: string;
@@ -26,6 +28,7 @@ export default function ChatOption({
           <p>{message}</p>
         </div>
       </div>
+      {!isOpened && <GoDotFill className="ChatOptionUnreadIcon" />}
     </div>
   );
 }

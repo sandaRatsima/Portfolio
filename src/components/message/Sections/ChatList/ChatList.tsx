@@ -8,17 +8,18 @@ interface Props {
 }
 
 const ChatList: React.FC<Props> = ({ activeIndex, setActiveIndex }) => {
+  const handleClick = (index: number) => {
+    setActiveIndex(index);
+    ChatOptionsData[index].isOpened = true;
+  };
   return (
     <div className="ChatList">
       <aside>
         {ChatOptionsData.map((value, index) => (
           <ChatOption
             key={index}
-            onClick={() => {
-              setActiveIndex(index);
-              console.log(activeIndex == index);
-            }}
-            isOpened={activeIndex === index}
+            onClick={() => handleClick(index)}
+            isOpened={value.isOpened}
             image={value.image}
             name={value.name}
             message={value.messages[0]}
