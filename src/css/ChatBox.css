@@ -1,0 +1,28 @@
+.ChatBoxHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom : 2ch;
+  padding-top: 2ch;
+}
+
+.ChatBoxHeaderImage {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: 2ch;
+}
+
+.ChatBoxHeaderInfo {
+  color: white;
+  height: 30px;
+  width: auto;
+  margin-left: auto;
+  display: flex; 
+  align-items: center;
+  padding-right: 2ch;
+}

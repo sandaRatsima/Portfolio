@@ -16,6 +16,13 @@
 .ChatOptionMessage p {
   margin: 0;
   font-size: small;
+  font-weight: bold;
+}
+
+.ChatOptionName p.opened,
+.ChatOptionMessage p.opened {
+  font-weight: normal;
+  color: #828282;
 }
 
 .ChatOptionPicture {

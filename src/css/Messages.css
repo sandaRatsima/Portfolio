@@ -6,11 +6,15 @@
 
 .ChatList {
   margin: 0;
-  width: 30vw;
+  width: 30%;
   border-right: 2px solid #1a1a1a;
   position: sticky;
   top: 0;
   align-self: flex-start;
   height: 100vh;
   overflow: hidden;
+}
+
+.ChatBox {
+  width: 70%;
 }

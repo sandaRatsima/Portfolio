@@ -2,13 +2,21 @@ interface PropsChatOption {
   image: string;
   name: string;
   message: string;
+  isOpened?: boolean;
+  onClick: () => void;
 }
 
-export default function ChatOption({ image, name, message }: PropsChatOption) {
+export default function ChatOption({
+  image,
+  name,
+  message,
+  isOpened = false,
+  onClick,
+}: PropsChatOption) {
   return (
-    <div className="ChatOption">
+    <div className={`ChatOption ${isOpened ? "opened" : ""}`} onClick={onClick}>
       <div className="ChatOptionPicture">
-        <img src={image} alt="Chat Option Picture" />
+        <img src={image} alt={name} />
       </div>
       <div className="ChatOptionTextContainter">
         <div className="ChatOptionName">
